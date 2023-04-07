@@ -3,7 +3,6 @@ package com.edxp.controller;
 import com.edxp.common.response.CommonResponse;
 import com.edxp.config.auth.PrincipalDetails;
 import com.edxp.constant.ErrorCode;
-import com.edxp.dto.User;
 import com.edxp.dto.request.UserCheckRequest;
 import com.edxp.dto.request.UserFindRequest;
 import com.edxp.dto.request.UserSignUpRequest;
@@ -14,8 +13,6 @@ import com.edxp.service.EmailSenderService;
 import com.edxp.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
